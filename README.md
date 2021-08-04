@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+## MKS Dashboard
+
+![](https://tokei.rs/b1/github/piet2001/mks-dashboard)
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
