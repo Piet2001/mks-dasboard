@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Momenteel werken wij aan een nieuwe versie voor het mks-dashboard. Deze pagina is daarom voorlopig nog niet beschikbaar.
+          Momenteel werken wij aan een nieuwe versie voor het mks-dashboard. Deze pagina is daarom voorlopig niet beschikbaar.
         </p>
       </header>
     </div>
