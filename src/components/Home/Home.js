@@ -8,6 +8,7 @@ function Home() {
             Hier kun je door het invoeren van je session_id veel info krijgen over jou spel.<br />
             Bijvoorbeeld hoeveel voertuigen en gebouwen je bezet van ieder type.<br />
 
+            Momenteel zijn wij nog bezig met de ontwikkeling hierdoor is het mogelijk dat niet alles werkt zoals het zou moeten.
         </div >
     )
 }
