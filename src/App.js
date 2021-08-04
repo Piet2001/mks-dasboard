@@ -1,32 +1,16 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Layout from "./components/Layout/Layout";
-import Home from "./components/Home/Home"
-import Vehicles from "./components/Vehicles/Vehicles"
-import Buildings from "./components/Buildings/Buildings"
-
+import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <Router>
-      <Switch>
-        <Route exact path='/mks-dashboard/'>
-          <Layout>
-            <Home />
-          </Layout>
-        </Route>
-        <Route exact path='/mks-dashboard/vehicles'>
-          <Layout>
-            <Vehicles />
-          </Layout>
-        </Route>
-        <Route exact path='/mks-dashboard/buildings'>
-          <Layout>
-            <Buildings />
-          </Layout>
-        </Route>
-      </Switch>
-    </Router>
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Momenteel werken wij aan een nieuwe versie voor het mks-dashboard. Deze pagina is daarom voorlopig niet beschikbaar.
+        </p>
+      </header>
+    </div>
   );
 }
 
