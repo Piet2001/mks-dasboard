@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Momenteel werken wij aan een nieuwe versie voor het mks-dashboard. Deze pagina is daarom voorlopig nog niet beschikbaar.
         </p>
         <a
           className="App-link"
