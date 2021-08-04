@@ -11,6 +11,4 @@ updates:
     commit-message:
         prefix: "⬆️"
         include: "scope"
-    reviewers:
-      - "Piet2001"
     target-branch: "development"
