@@ -1,0 +1,16 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "daily"
+      time: "12:00"
+      timezone: "Europe/Amsterdam"
+    assignees:
+      - "Piet2001"
+    commit-message:
+        prefix: "⬆️"
+        include: "scope"
+    reviewers:
+      - "Piet2001"
+    target-branch: "development"
