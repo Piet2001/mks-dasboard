@@ -21,6 +21,7 @@ function App() {
     fetchMissions().then(r => setApiVehicles(r));
   }, [SessionId]);
 
+  console.log(ApiVehicles)
   return (
     <Router>
       <Switch>
