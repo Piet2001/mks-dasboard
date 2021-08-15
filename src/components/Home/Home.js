@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Home() {
+const Home = (props) => {
     return (
         <div>
             Welkom in het mks-dashboard.<br />
@@ -9,6 +9,10 @@ function Home() {
             Bijvoorbeeld hoeveel voertuigen en gebouwen je bezet van ieder type.<br />
 
             Momenteel zijn wij nog bezig met de ontwikkeling hierdoor is het mogelijk dat niet alles werkt zoals het zou moeten.
+            <br />
+            <br />
+
+            <input name='sessionId' type='text' onChange={e => props.setSessionId(e.target.value)} />
         </div >
     )
 }
