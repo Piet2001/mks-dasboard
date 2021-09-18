@@ -1,6 +1,6 @@
 {
   "name": "mks-dashboard",
-  "homepage": "https://piet2001.github.io/mks-dashboard",
+  "homepage": "https://piet2001.github.io/mks-dashboard-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
