@@ -14,7 +14,13 @@ function App() {
 
   useEffect(() => {
     const fetchMissions = async () => {
-      const result = await axios('https://www.meldkamerspel.com/einsaetze.json/');
+      const result = await axios.get('https://www.meldkamerspel.com/einsaetze.json/',
+        {
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          withCredentials: true
+        });
       console.log(result.data)
       return result.data;
     }
