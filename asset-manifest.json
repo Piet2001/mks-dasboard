@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mks-dashboard-react/static/css/main.de91c6f7.chunk.css",
-    "main.js": "/mks-dashboard-react/static/js/main.0bc59e92.chunk.js",
-    "main.js.map": "/mks-dashboard-react/static/js/main.0bc59e92.chunk.js.map",
+    "main.js": "/mks-dashboard-react/static/js/main.36303ffe.chunk.js",
+    "main.js.map": "/mks-dashboard-react/static/js/main.36303ffe.chunk.js.map",
     "runtime-main.js": "/mks-dashboard-react/static/js/runtime-main.d9d4ecbc.js",
     "runtime-main.js.map": "/mks-dashboard-react/static/js/runtime-main.d9d4ecbc.js.map",
     "static/js/2.4864bf83.chunk.js": "/mks-dashboard-react/static/js/2.4864bf83.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.d9d4ecbc.js",
     "static/js/2.4864bf83.chunk.js",
     "static/css/main.de91c6f7.chunk.css",
-    "static/js/main.0bc59e92.chunk.js"
+    "static/js/main.36303ffe.chunk.js"
   ]
 }
