@@ -25,17 +25,17 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path='/mks-dashboard-react/'>
+        <Route exact path='/mks-dashboard/'>
           <Layout>
             <Home setSessionId={setSessionId} />
           </Layout>
         </Route>
-        <Route exact path='/mks-dashboard-react/vehicles'>
+        <Route exact path='/mks-dashboard/vehicles'>
           <Layout>
             <Vehicles />
           </Layout>
         </Route>
-        <Route exact path='/mks-dashboard-react/buildings'>
+        <Route exact path='/mks-dashboard/buildings'>
           <Layout>
             <Buildings />
           </Layout>
