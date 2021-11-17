@@ -55,12 +55,13 @@ function Credits() {
 export default Credits
 
 async function getavg(locale) {
-    const data = await fetch(`https://raw.githubusercontent.com/Piet2001/Missionfiles-All-Versions/master/Missions/${locale}.json`)
+    var data = await fetch(`https://raw.githubusercontent.com/Piet2001/Missionfiles-All-Versions/master/Missions/${locale}.json`)
         .then(response => response.json())
         .then(data => {
             return data
         })
+    data = data.filter(mission => mission.additional.only_alliance_mission !== true && mission.additional.guard_mission !== true)
     const avg = data.reduce((total, next) => total + next.average_credits, 0) / data.length;
 
-    return avg
+    return `${avg.toFixed(2)} credits (${data.length} missions)`
 }
