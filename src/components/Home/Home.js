@@ -5,14 +5,14 @@ const Home = (props) => {
         <div>
             Welkom in het mks-dashboard.<br />
             <br />
-            Hier kun je door het invoeren van je session_id veel info krijgen over jou spel.<br />
-            Bijvoorbeeld hoeveel voertuigen en gebouwen je bezet van ieder type.<br />
-
+            Op deze pagina kun je verschillende gegevens over meldkamerspel vinden.
             Momenteel zijn wij nog bezig met de ontwikkeling hierdoor is het mogelijk dat niet alles werkt zoals het zou moeten.
+            En zijn er weinig opties beschikbaar.<br />
+            Wanneer meer functies beschikbaar komen ze op deze site.
             <br />
             <br />
 
-            <input name='sessionId' type='text' onChange={e => props.setSessionId(e.target.value)} />
+            {/* <input name='sessionId' type='text' onChange={e => props.setSessionId(e.target.value)} /> */}
         </div >
     )
 }
