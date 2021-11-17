@@ -11,24 +11,24 @@ import './App.css';
 function App() {
 
   const [SessionId, setSessionId] = useState("Default");
-  // const [ApiVehicles, setApiVehicles] = useState([]);
+  const [ApiVehicles, setApiVehicles] = useState([]);
 
-  // useEffect(() => {
-  //   const fetchMissions = async () => {
-  //     const result = await axios.get('https://www.meldkamerspel.com/einsaetze.json/',
-  //       {
-  //         headers: {
-  //           'Content-Type': 'application/json',
-  //         },
-  //         withCredentials: true
-  //       });
-  //     console.log(result.data)
-  //     return result.data;
-  //   }
-  //   fetchMissions().then(r => setApiVehicles(r));
-  // }, [SessionId]);
+  useEffect(() => {
+    const fetchMissions = async () => {
+      const result = await axios.get('https://www.meldkamerspel.com/einsaetze.json/',
+        {
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          withCredentials: true
+        });
+      console.log(result.data)
+      return result.data;
+    }
+    fetchMissions().then(r => setApiVehicles(r));
+  }, [SessionId]);
 
-  // console.log(ApiVehicles)
+  console.log(ApiVehicles)
   return (
     <Router>
       <Switch>

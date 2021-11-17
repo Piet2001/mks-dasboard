@@ -1,8 +1,8 @@
 import "./Header.css";
 import { Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import { RiPoliceCarFill } from "react-icons/ri";
-import { FaBuilding, FaHome, FaDollarSign } from "react-icons/fa";
+// import { RiPoliceCarFill } from "react-icons/ri";
+import { FaHome, FaDollarSign } from "react-icons/fa"; //FaBuilding
 import React from "react";
 
 const Header = () => {

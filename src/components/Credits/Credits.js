@@ -9,14 +9,11 @@ function Credits() {
         fetchVersions()
 
         async function fetchVersions() {
-            var versions = []
             const fetchVersions = async () => {
                 const result = await axios("https://raw.githubusercontent.com/Piet2001/Teststuff/master/games.json");
                 return result.data;
             };
             fetchVersions().then((r) => update(r));
-
-
         }
 
         async function update(versions) {
