@@ -36,13 +36,18 @@ function Credits() {
     console.log(`length: ${VersionsList.length}`)
     return (
         <div>
-            Je bevind je nu op de credits pagina
+            Op deze pagina vind je het gemiddelde aantal credits wat een melding in een versie opleverd.
 
             {(() => {
                 VersionsList.sort((a, b) => (a.avg < b.avg) ? 1 : -1)
+                var count = 0
                 return (
-                    VersionsList.map((version) =>
-                        <h4>{version.code} - {version.avg}</h4>
+                    VersionsList.map((version) => {
+                        count++
+
+                        return (<h4>#{count} - {version.code} - {version.avg}</h4>)
+                    }
+
                     )
                 )
             })()}
