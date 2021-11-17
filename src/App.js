@@ -3,6 +3,7 @@ import Layout from "./components/Layout/Layout";
 import Home from "./components/Home/Home"
 import Vehicles from "./components/Vehicles/Vehicles"
 import Buildings from "./components/Buildings/Buildings"
+import Credits from "./components/Credits/Credits"
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import './App.css';
@@ -44,6 +45,11 @@ function App() {
         <Route exact path='/mks-dashboard/buildings'>
           <Layout>
             <Buildings />
+          </Layout>
+        </Route>
+        <Route exact path='/mks-dashboard/credits'>
+          <Layout>
+            <Credits />
           </Layout>
         </Route>
       </Switch>

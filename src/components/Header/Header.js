@@ -1,8 +1,8 @@
 import "./Header.css";
 import { Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import { RiPoliceCarFill } from "react-icons/ri";
-import { FaBuilding, FaHome } from "react-icons/fa";
+// import { RiPoliceCarFill } from "react-icons/ri";
+import { FaHome, FaDollarSign } from "react-icons/fa"; //FaBuilding
 import React from "react";
 
 const Header = () => {
@@ -14,11 +14,14 @@ const Header = () => {
             <Link className="link" to="/mks-dashboard">
               <FaHome id="icon" size={50} />
             </Link>
-            <Link className="link" to="/mks-dashboard/vehicles">
+            {/* <Link className="link" to="/mks-dashboard/vehicles">
               <RiPoliceCarFill id="icon" size={50} />
             </Link>
             <Link className="link" to="/mks-dashboard/buildings">
               <FaBuilding id="icon" size={50} />
+            </Link> */}
+            <Link className="link" to="/mks-dashboard/credits">
+              <FaDollarSign id="icon" size={50} />
             </Link>
           </Nav>
         </Navbar.Collapse>
