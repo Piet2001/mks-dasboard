@@ -4,37 +4,24 @@ import Home from "./components/Home/Home"
 import Vehicles from "./components/Vehicles/Vehicles"
 import Buildings from "./components/Buildings/Buildings"
 import Credits from "./components/Credits/Credits"
-import React, { useState, useEffect } from "react";
-import axios from "axios";
+import React from "react";
 import './App.css';
 
 function App() {
 
-  const [SessionId, setSessionId] = useState("Default");
-  const [ApiVehicles, setApiVehicles] = useState([]);
+  var done = false;
 
-  useEffect(() => {
-    const fetchMissions = async () => {
-      const result = await axios.get('https://www.meldkamerspel.com/einsaetze.json/',
-        {
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          withCredentials: true
-        });
-      console.log(result.data)
-      return result.data;
-    }
-    fetchMissions().then(r => setApiVehicles(r));
-  }, [SessionId]);
+  if (!done) {
+    alert("Beste gebruiker,\nWe zijn verhuisd van domein. U kunt ons nu vinden op https://mks-dashboard.github.io/ \n\n\nDear user,\nWe have moved domain. You can now find us at https://mks-dashboard.github.io/")
+    done = true
+  }
 
-  console.log(ApiVehicles)
   return (
     <Router>
       <Switch>
         <Route exact path='/mks-dashboard/'>
           <Layout>
-            <Home setSessionId={setSessionId} />
+            <Home />
           </Layout>
         </Route>
         <Route exact path='/mks-dashboard/vehicles'>
