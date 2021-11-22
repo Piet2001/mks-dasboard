@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/mks-dashboard/static/css/main.de91c6f7.chunk.css",
-    "main.js": "/mks-dashboard/static/js/main.2b878b1f.chunk.js",
-    "main.js.map": "/mks-dashboard/static/js/main.2b878b1f.chunk.js.map",
+    "main.js": "/mks-dashboard/static/js/main.586fca13.chunk.js",
+    "main.js.map": "/mks-dashboard/static/js/main.586fca13.chunk.js.map",
     "runtime-main.js": "/mks-dashboard/static/js/runtime-main.16c8a6cf.js",
     "runtime-main.js.map": "/mks-dashboard/static/js/runtime-main.16c8a6cf.js.map",
-    "static/js/2.272143b1.chunk.js": "/mks-dashboard/static/js/2.272143b1.chunk.js",
-    "static/js/2.272143b1.chunk.js.map": "/mks-dashboard/static/js/2.272143b1.chunk.js.map",
+    "static/js/2.d0bc2dc9.chunk.js": "/mks-dashboard/static/js/2.d0bc2dc9.chunk.js",
+    "static/js/2.d0bc2dc9.chunk.js.map": "/mks-dashboard/static/js/2.d0bc2dc9.chunk.js.map",
     "static/js/3.8f609a18.chunk.js": "/mks-dashboard/static/js/3.8f609a18.chunk.js",
     "static/js/3.8f609a18.chunk.js.map": "/mks-dashboard/static/js/3.8f609a18.chunk.js.map",
     "index.html": "/mks-dashboard/index.html",
     "static/css/main.de91c6f7.chunk.css.map": "/mks-dashboard/static/css/main.de91c6f7.chunk.css.map",
-    "static/js/2.272143b1.chunk.js.LICENSE.txt": "/mks-dashboard/static/js/2.272143b1.chunk.js.LICENSE.txt"
+    "static/js/2.d0bc2dc9.chunk.js.LICENSE.txt": "/mks-dashboard/static/js/2.d0bc2dc9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.16c8a6cf.js",
-    "static/js/2.272143b1.chunk.js",
+    "static/js/2.d0bc2dc9.chunk.js",
     "static/css/main.de91c6f7.chunk.css",
-    "static/js/main.2b878b1f.chunk.js"
+    "static/js/main.586fca13.chunk.js"
   ]
 }
