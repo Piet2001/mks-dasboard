@@ -16,6 +16,13 @@ function App() {
     done = true
   }
 
+  if (window.location.href === "https://piet2001.github.io/mks-dashboard/credits") {
+    window.location.href = "https://mks-dashboard.github.io/credits"
+  }
+  else {
+    window.location.href = "https://mks-dashboard.github.io"
+  }
+
   return (
     <Router>
       <Switch>
