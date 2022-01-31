@@ -15,11 +15,11 @@ jobs:
         fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
     - name: Create local changes
       run: |
-        curl -X GET https://raw.githubusercontent.com/MKS-Dashboard/datafiles/main/additionalvalues.json > datafiles/additionalvalues.json
-        curl -X GET https://raw.githubusercontent.com/MKS-Dashboard/datafiles/main/buildings.json > datafiles/buildings.json
-        curl -X GET https://raw.githubusercontent.com/MKS-Dashboard/datafiles/main/games.json > datafiles/games.json
-        curl -X GET https://raw.githubusercontent.com/MKS-Dashboard/datafiles/main/vehiclegroups.json > datafiles/vehiclegroups.json
-        curl -X GET https://raw.githubusercontent.com/MKS-Dashboard/datafiles/main/vehicles.json > datafiles/vehicles.json
+        curl -X GET https://mks-dashboard.github.io/datafiles/additionalvalues.json > datafiles/additionalvalues.json
+        curl -X GET https://mks-dashboard.github.io/datafiles/buildings.json > datafiles/buildings.json
+        curl -X GET https://mks-dashboard.github.io/datafiles/games.json > datafiles/games.json
+        curl -X GET https://mks-dashboard.github.io/datafiles/vehiclegroups.json > datafiles/vehiclegroups.json
+        curl -X GET https://mks-dashboard.github.io/datafiles/vehicles.json > datafiles/vehicles.json
         
     - name: Prettify code
       uses: creyD/prettier_action@v3.3
